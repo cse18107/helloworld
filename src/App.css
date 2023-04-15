@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.screen{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  /* Created with https://www.css-gradient.com */
+  background: rgba(42, 113, 98, 1.0);
+  background: -webkit-linear-gradient(top left, rgba(42, 113, 98, 1.0), rgba(88, 84, 138, 1.0));
+  background: -moz-linear-gradient(top left, rgba(42, 113, 98, 1.0), rgba(88, 84, 138, 1.0));
+  background: linear-gradient(to bottom right, rgba(42, 113, 98, 1.0), rgba(88, 84, 138, 1.0));
+}
+img{
+  height: 30px;
+}
+button{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  outline: none;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.mailbtn{
+  width: 100px;
+}
+.googlebtn{
+  width: 200px;
+}
+h4{
+  margin-bottom: 10px;
+  font-weight: 300;
+  color: white;
+}
+.home{
+  font-size: 4rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+Link{
+  color: white;
 }
+h2{
+  margin-top: 0px;
+  font-weight: 500;
+  color: white;
+}
+.link{
+  color: white;
+}
+.container {
+  margin: auto;
+  width: 700px;
+  height: 70%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-around;
+  flex-direction: column;
+  -webkit-box-shadow: 1px 8px 8px -2px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 1px 8px 8px -2px rgba(66, 68, 90, 1);
+  box-shadow: 1px 8px 8px -2px rgba(66, 68, 90, 1);
+  /* Created with https://www.css-gradient.com */
+  background: rgba(114, 43, 43, 1.0);
+  background: -webkit-linear-gradient(top left, rgba(114, 43, 43, 1.0), rgba(88, 84, 138, 1.0));
+  background: -moz-linear-gradient(top left, rgba(114, 43, 43, 1.0), rgba(88, 84, 138, 1.0));
+  background: linear-gradient(to bottom right, rgba(114, 43, 43, 1.0), rgba(88, 84, 138, 1.0));
+}
+.input {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+   /* justify-content: flex-start;
+   align-items: center; */
+  /* align-items: center; */
+  margin-bottom: 10px;
+
+
+}
+input{
+  width:100% ;
+  height: 40px;
+
+  border: none;
+  outline: none;
+    border-radius: 10px;
+}
+h4{
+  margin-top:0 ;
+  margin-bottom: 0;
 }
